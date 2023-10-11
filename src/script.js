@@ -26,7 +26,7 @@ const axesHelper = new THREE.AxesHelper()
  * Textures
  */
 const textureLoader = new THREE.TextureLoader()
-const matcapTexture = textureLoader.load('/textures/matcaps/3.png')
+const matcapTexture = textureLoader.load('./textures/matcaps/3.png')
 
 /**
  * Fonts
@@ -37,7 +37,7 @@ var textGeometry = null
 
 
 fontLoader.load(
-    '/fonts/helvetiker_regular.typeface.json',
+    './fonts/helvetiker_regular.typeface.json',
     (font) => {
         textGeometry = new TextGeometry(
             'natepiano@youtube',
