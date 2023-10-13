@@ -7,6 +7,7 @@ import {TextGeometry} from 'three/examples/jsm/geometries/TextGeometry.js'
 
 THREE.ColorManagement.enabled = false
 
+console.log("test vercel")
 /**
  * Base
  */
