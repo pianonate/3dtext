@@ -1,0 +1,6 @@
+{
+  "routes": [
+    { "src": "/3dtext/(.*)", "dest": "https://3dtext-rho-one.vercel.app/$1" },
+    { "src": "/metallic/(.*)", "dest": "https://metallic-psi.vercel.app/$1" }
+  ]
+}
